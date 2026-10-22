@@ -94,7 +94,7 @@
     "published": "api-coverage.csv",
     "local_source_relative": "API_COVERAGE.csv",
     "original_sha256": "819d02e4ee7c5ced7beaab337ae10e9a067b1c21b581569b37b504dc846c38a3",
-    "published_sha256": "819d02e4ee7c5ced7beaab337ae10e9a067b1c21b581569b37b504dc846c38a3",
-    "transformation": "None"
+    "published_sha256": "53c68f24cf9e49be686325498c6b8966329717e323b56ce5ba3a885107758372",
+    "transformation": "CRLF normalized to LF; CSV fields unchanged."
   }
 ]
