@@ -1,6 +1,6 @@
 # Team Work Plan
 
-This is the proposed ownership plan for the submitted CS 5100 project. Implementation has not started. The owner approved TypeScript + Bun; see [ADR 001](decisions/001-typescript-bun.md) and the [architecture and contract design](architecture-draft.md). The aim is comparable effort and meaningful engineering, evaluation, and writing experience for all three members. Estimates are planning weights, not measured hours or a guarantee of equal difficulty.
+This is the proposed ownership plan for the submitted CS 5100 project. Siyuan's first headless runtime is available; see [runtime integration](runtime-development.md). Full team integration and benchmark acceptance remain outstanding. The owner approved TypeScript + Bun; see [ADR 001](decisions/001-typescript-bun.md) and the [architecture and contract design](architecture-draft.md). The aim is comparable effort and meaningful engineering, evaluation, and writing experience for all three members. Estimates are planning weights, not measured hours or a guarantee of equal difficulty.
 
 ## Ownership and workload
 

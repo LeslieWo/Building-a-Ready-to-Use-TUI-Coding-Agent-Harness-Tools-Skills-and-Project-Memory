@@ -12,3 +12,10 @@ __pycache__/
 # Local files
 .DS_Store
 *.log
+
+# TypeScript development
+node_modules/
+coverage/
+dist/
+.worktrees/
+*.tsbuildinfo

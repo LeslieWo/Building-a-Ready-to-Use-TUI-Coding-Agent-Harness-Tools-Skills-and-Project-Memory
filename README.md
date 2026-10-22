@@ -14,7 +14,9 @@ See the [team ownership, workload, milestones, and acceptance criteria](docs/tea
 
 ## Status
 
-Architecture stage. The owner approved TypeScript + Bun on October 21, 2026. Implementation and project benchmark experiments have not started. OpenCode research results are reference-system evidence, not results for our own agent.
+Siyuan's initial headless runtime is implemented: model adapter, agent loop, budgets, context and isolated project facts. Offline tests and a deterministic file-reading demo are available. Production tools/MCP/skills, TUI/session integration and project benchmarks remain outstanding. OpenCode research results are reference-system evidence, not results for our own agent.
+
+See [runtime setup, runnable demo and teammate integration](docs/runtime-development.md).
 
 ## Project proposal
 
@@ -24,7 +26,7 @@ The English proposal was submitted to Gradescope on October 21, 2026, for Siyuan
 - [Chinese review HTML](docs/project-proposal-zh.html) — download the file and open it in a browser to view the formatted page. GitHub's file view displays HTML source.
 - [English plain text](docs/project-proposal.txt).
 
-These documents cover the motivation, related-work analysis, methodology and alternatives, expected results, evaluation controls, and references. The Chinese HTML is a review aid; the English PDF is the submitted version. Implementation and experiments remain planned work.
+These documents cover the motivation, related-work analysis, methodology and alternatives, expected results, evaluation controls, and references. The Chinese HTML is a review aid; the English PDF is the submitted version. The original proposal describes planned scope; see the status and runtime guide for implemented behavior. Project benchmark experiments remain outstanding.
 
 ## Project goal
 
