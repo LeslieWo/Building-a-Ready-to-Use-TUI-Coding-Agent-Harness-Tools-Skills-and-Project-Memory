@@ -1,6 +1,6 @@
 # Team Work Plan
 
-This is the proposed ownership plan for the submitted CS 5100 project. Implementation has not started. The owner approved TypeScript + Bun; see [ADR 001](decisions/001-typescript-bun.md) and the [architecture and contract design](architecture-draft.md). The aim is comparable effort and meaningful engineering, evaluation, and writing experience for all three members. Estimates are planning weights, not measured hours or a guarantee of equal difficulty.
+This is the proposed ownership plan for the submitted CS 5100 project. Siyuan's first headless runtime is available; see [runtime integration](runtime-development.md). Full team integration and benchmark acceptance remain outstanding. The owner approved TypeScript + Bun; see [ADR 001](decisions/001-typescript-bun.md) and the [architecture and contract design](architecture-draft.md). The aim is comparable effort and meaningful engineering, evaluation, and writing experience for all three members. Estimates are planning weights, not measured hours or a guarantee of equal difficulty.
 
 ## Ownership and workload
 
@@ -41,6 +41,13 @@ Each member also owns four evaluation tasks (4 points), 32 planned evaluation ru
 **Acceptance:** a teammate can follow setup instructions, launch a task, inspect its diff, interrupt safely, and restore a saved session. The runner executes a pilot for all four configurations and exports comparable results. The runner is Ni's responsibility; preparing and running the entire experiment is shared equally.
 
 **Writing and demo:** explain user interaction, recovery behavior, and evaluation infrastructure; demonstrate the TUI and a saved-session restore.
+
+## Siyuan implementation checkpoint (October 21, 2026)
+
+- First runtime/provider/context/memory implementation is available on `feat/siyuan-agent-runtime`.
+- A real GLM-5.3 code-repair development acceptance passed; see [evidence](validation/live-repair-2026-10-21/README.md).
+- [Four candidate tasks](../eval/tasks/siyuan/README.md) and a [technical report/demo draft](report/siyuan-runtime-section.md) are prepared.
+- Production tool/TUI/session integration, teammate review/freeze, all 32 formal runs, analysis, final report and demo delivery remain outstanding. The original scope checkboxes represent full acceptance, not just code availability.
 
 ## Shared interfaces: agree before implementation
 

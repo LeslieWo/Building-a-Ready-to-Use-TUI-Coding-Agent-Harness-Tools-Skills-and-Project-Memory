@@ -1,0 +1,13 @@
+{
+  "id": "F1-unique-slug",
+  "owner": "Siyuan Liang",
+  "category": "feature",
+  "status": "draft-awaiting-independent-review",
+  "prompt": "Implement unique_slug(title, existing) in slugs.py using the existing normalize helper. Return the normalized slug when unused. Otherwise use the smallest available numeric suffix starting at -2. Empty normalized titles use item. existing is a set of slug strings and must not be mutated.",
+  "workspace": "workspace",
+  "heldout": "heldout",
+  "language": "Python 3",
+  "dependencies": "standard library only",
+  "orientation": "Inspect repository files and discover the visible unittest command. All configurations receive the same orientation opportunity.",
+  "acceptance": "All original visible and held-out tests pass; no test or infrastructure changes allowed."
+}

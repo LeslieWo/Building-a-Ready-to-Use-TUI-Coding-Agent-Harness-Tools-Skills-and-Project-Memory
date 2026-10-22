@@ -1,0 +1,156 @@
+{
+  "status": "draft, not frozen and not agent evaluation",
+  "validation": "Baseline checks fail; temporary author reference fixes pass. Reference solutions were not published. Independent review pending.",
+  "tasks": [
+    {
+      "id": "B1-closed-intervals",
+      "baseline": {
+        "visible": {
+          "tests": 2,
+          "failures": 1,
+          "errors": 0,
+          "passed": false
+        },
+        "heldout": {
+          "tests": 4,
+          "failures": 3,
+          "errors": 0,
+          "passed": false
+        }
+      },
+      "temporary_reference_fix": {
+        "visible": {
+          "tests": 2,
+          "failures": 0,
+          "errors": 0,
+          "passed": true
+        },
+        "heldout": {
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "passed": true
+        }
+      },
+      "candidate_files_sha256": {
+        "heldout/test_acceptance.py": "20af44e6cb56bb2b8558dd172bda9e67d22f27d60ce5af36459af1ff207980cb",
+        "task.json": "4ea5f3545b9d0561a76b9af828d3918fa14062264de86cfd4f8fc87877e0c330",
+        "workspace/intervals.py": "5dfa06306ebf24c1f804b3ab26c23c63d8151f1dacd9418ebe0e7111473484be",
+        "workspace/test_visible.py": "0f43ea5588b9ea63f661dbd25f59493d7ac8bdb4c48f2572885fd0984a619930"
+      }
+    },
+    {
+      "id": "B2-page-window",
+      "baseline": {
+        "visible": {
+          "tests": 2,
+          "failures": 2,
+          "errors": 0,
+          "passed": false
+        },
+        "heldout": {
+          "tests": 5,
+          "failures": 2,
+          "errors": 0,
+          "passed": false
+        }
+      },
+      "temporary_reference_fix": {
+        "visible": {
+          "tests": 2,
+          "failures": 0,
+          "errors": 0,
+          "passed": true
+        },
+        "heldout": {
+          "tests": 5,
+          "failures": 0,
+          "errors": 0,
+          "passed": true
+        }
+      },
+      "candidate_files_sha256": {
+        "heldout/test_acceptance.py": "11ce8936427d3e6d4215564f8b10024d0ff36f58e0c97a5ae81dc24a2172f753",
+        "task.json": "9d7c84336c7c914b554131ce36d79ae5116aed77e88996280c3c2373c88da88e",
+        "workspace/paging.py": "82a90cd923c6abc86ac3a48cca2a50534a955bf07d100fb951c3a1d4d919a0f8",
+        "workspace/test_visible.py": "431da7a1e6dcce7a480f4eb4a8137a5fa1b7cdbf970c6f74199e1599a85718c9"
+      }
+    },
+    {
+      "id": "C1-shared-money-format",
+      "baseline": {
+        "visible": {
+          "tests": 2,
+          "failures": 1,
+          "errors": 0,
+          "passed": false
+        },
+        "heldout": {
+          "tests": 5,
+          "failures": 4,
+          "errors": 0,
+          "passed": false
+        }
+      },
+      "temporary_reference_fix": {
+        "visible": {
+          "tests": 2,
+          "failures": 0,
+          "errors": 0,
+          "passed": true
+        },
+        "heldout": {
+          "tests": 5,
+          "failures": 0,
+          "errors": 0,
+          "passed": true
+        }
+      },
+      "candidate_files_sha256": {
+        "heldout/test_acceptance.py": "3b7250fba13fae728a6bab067103b73eb07e26e31f46bd2d255c2549402a18d9",
+        "task.json": "31769b80e908b8c005175a9d142d22727066743c04840241cb8cbe599de146f1",
+        "workspace/money.py": "6671fd2f5fbc27d10b63fc49b7f90ff5723bc09b2d114b1dede7a2f596b6eae9",
+        "workspace/orders.py": "435520b48c22c424c984f457a0addbcb4ecc61e6a52c93e89c33831bfce431bb",
+        "workspace/receipts.py": "d8d84bb5db1ea119edfd9d159443709f6e69a55879e39b72dc362f5788a50f06",
+        "workspace/test_visible.py": "c260c628d89f3f87dc4ff05c5db0f819ee225c4bd3a8744726e9dc4d0142855a"
+      }
+    },
+    {
+      "id": "F1-unique-slug",
+      "baseline": {
+        "visible": {
+          "tests": 2,
+          "failures": 0,
+          "errors": 2,
+          "passed": false
+        },
+        "heldout": {
+          "tests": 4,
+          "failures": 0,
+          "errors": 4,
+          "passed": false
+        }
+      },
+      "temporary_reference_fix": {
+        "visible": {
+          "tests": 2,
+          "failures": 0,
+          "errors": 0,
+          "passed": true
+        },
+        "heldout": {
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "passed": true
+        }
+      },
+      "candidate_files_sha256": {
+        "heldout/test_acceptance.py": "d492560e3eaa8d60f5767134233aee4d21ca242fe8f75be7e5726a37f9ccd4ec",
+        "task.json": "f3aca630e13aad9b09667a2067755ad3615fa0233ba6163ffcc4348175232d0c",
+        "workspace/slugs.py": "11f008c19f238fc58fa16340eefe1ac8d7ce42c76a68176f771d6f8f157c4e1c",
+        "workspace/test_visible.py": "d3a304dc6daa267a08c101ee63b5848825577c97ab086b3c651e06c74f9e2018"
+      }
+    }
+  ]
+}

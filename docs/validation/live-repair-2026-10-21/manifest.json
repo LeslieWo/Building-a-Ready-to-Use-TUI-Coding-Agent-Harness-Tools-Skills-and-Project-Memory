@@ -1,0 +1,28 @@
+[
+  {
+    "file": "summary.json",
+    "sha256": "42d89e3726a03f994008b7d439407b136720e2f19141fc0abba370976db65bf8",
+    "transformation": "none"
+  },
+  {
+    "file": "verification.json",
+    "sha256": "50a12dab0d23d9da63f7f43d3d47d35a51b30e499665711cbfe40ff0475ce5a7",
+    "transformation": "none"
+  },
+  {
+    "file": "before.py",
+    "sha256": "9cc8b784289f1dd76e796379759e8c60d91b59cc9a4f14373b1385bae2e7d13d",
+    "transformation": "none"
+  },
+  {
+    "file": "after.py",
+    "sha256": "8f424de02353a3b09c4824e43703cd92b9782175ffe3b321a4c8c161310aff38",
+    "transformation": "none"
+  },
+  {
+    "file": "trace.json",
+    "sha256": "ec4ec7a4e9129de7bfa9d4edef94d9e46359bbdad4d4fffb9d82c8f1088bc2fb",
+    "source_sha256": "7d62497e204542d7fa222dbbd36094fb3a9f80acafc9226fe5d45bc3048ee94b",
+    "transformation": "Selected tool, usage, approval and terminal events; omitted text deltas and checkpoints. Fixture paths had been normalized by the runner."
+  }
+]

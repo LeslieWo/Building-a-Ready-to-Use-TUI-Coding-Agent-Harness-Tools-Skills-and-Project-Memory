@@ -1,0 +1,13 @@
+{
+  "id": "B2-page-window",
+  "owner": "Siyuan Liang",
+  "category": "bug",
+  "status": "draft-awaiting-independent-review",
+  "prompt": "Fix paginate in paging.py. page and size are integers; page is zero-based and size must be positive. Return a new list containing that page. Raise ValueError for negative page or size <= 0. An out-of-range page returns []. Preserve the original items.",
+  "workspace": "workspace",
+  "heldout": "heldout",
+  "language": "Python 3",
+  "dependencies": "standard library only",
+  "orientation": "Inspect repository files and discover the visible unittest command. All configurations receive the same orientation opportunity.",
+  "acceptance": "All original visible and held-out tests pass; no test or infrastructure changes allowed."
+}
