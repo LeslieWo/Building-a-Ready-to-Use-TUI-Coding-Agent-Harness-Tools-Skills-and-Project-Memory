@@ -1,6 +1,6 @@
 # Team Work Plan
 
-This is the proposed ownership plan for the submitted CS 5100 project. Work has not started. The aim is comparable effort and meaningful engineering, evaluation, and writing experience for all three members. Estimates are planning weights, not measured hours or a guarantee of equal difficulty.
+This is the proposed ownership plan for the submitted CS 5100 project. Implementation has not started. The owner approved TypeScript + Bun; see [ADR 001](decisions/001-typescript-bun.md) and the [architecture and contract design](architecture-draft.md). The aim is comparable effort and meaningful engineering, evaluation, and writing experience for all three members. Estimates are planning weights, not measured hours or a guarantee of equal difficulty.
 
 ## Ownership and workload
 
@@ -53,7 +53,7 @@ All paths below are proposed ownership boundaries, not existing files.
 | Session and run configuration | Ni | Repository path, task, model identifier, sampling settings, skills/memory flags, context/step/token limits, trial ID, and output location; secret values are never persisted in logs |
 | State ownership | All three | Siyuan owns project-fact memory and active context. Ni owns session/event storage and restore orchestration. Joe owns tool execution and skill assets. Recovery restores state through an agreed runtime interface. |
 
-Suggested module boundaries: `src/agent/` and `src/memory/` (Siyuan); `src/tools/`, `src/mcp/`, and `skills/` (Joe); `src/tui/`, `src/session/`, and `eval/` (Ni). Each owner writes tests for their own modules. Keep shared schema changes in small PRs reviewed by all affected owners.
+Suggested module boundaries: `src/agent/` and `src/memory/` (Siyuan); `src/tools/`, `src/mcp/`, `src/skills/`, and `skills/` (Joe); `src/tui/`, `src/session/`, and `eval/` (Ni). Each owner writes tests for their own modules. Keep shared schema changes in small PRs reviewed by all affected owners.
 
 ## Evaluation: equal participation
 

@@ -1,0 +1,212 @@
+{
+  "target": "file://$OPENCODE_APP/Contents/Resources/app.asar/out/main/chunks/node-BOFfwe6w.js",
+  "run": "$ANALYSIS_ROOT/runtime/api-smoke/run-LCycPh",
+  "results": [
+    {
+      "name": "/global/health",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/config",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/config/providers",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/path",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/vcs",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/vcs/status",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/command",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/agent",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/skill",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/lsp",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/formatter",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/mcp",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/project",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/project/current",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/pty/shells",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/question",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/permission",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/provider",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/provider/auth",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/session",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/session/status",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/experimental/capabilities",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "/experimental/tool/ids",
+      "passed": true,
+      "kind": "HTTP success and parseable JSON only",
+      "publication_note": "Response body omitted; only the original smoke-test outcome is published."
+    },
+    {
+      "name": "session_fork",
+      "passed": true,
+      "original": "ses_e9e8a4c06ffeYZdIh7I0tKRCdf",
+      "fork": "ses_e9e8a4bf3ffeK7qu8LkOPBqi1B",
+      "before": [
+        {
+          "info": {
+            "id": "msg_16175b4040016vbjV2HOnVJUpK",
+            "sessionID": "ses_e9e8a4c06ffeYZdIh7I0tKRCdf",
+            "role": "user",
+            "time": {
+              "created": 1792636466180
+            },
+            "agent": "build",
+            "model": {
+              "providerID": "chainprobe",
+              "modelID": "probe"
+            }
+          },
+          "parts": [
+            {
+              "id": "prt_16175b4060015XPiZ2uZ3NLvuM",
+              "sessionID": "ses_e9e8a4c06ffeYZdIh7I0tKRCdf",
+              "messageID": "msg_16175b4040016vbjV2HOnVJUpK",
+              "type": "text",
+              "text": "Persistence marker only; do not execute."
+            }
+          ]
+        }
+      ],
+      "forkMessages": [
+        {
+          "info": {
+            "id": "msg_16175b40d001mVcYs60yLXFWlu",
+            "sessionID": "ses_e9e8a4bf3ffeK7qu8LkOPBqi1B",
+            "role": "user",
+            "time": {
+              "created": 1792636466180
+            },
+            "agent": "build",
+            "model": {
+              "providerID": "chainprobe",
+              "modelID": "probe"
+            }
+          },
+          "parts": [
+            {
+              "id": "prt_16175b40e001V3BoGCdGfLfN1n",
+              "sessionID": "ses_e9e8a4bf3ffeK7qu8LkOPBqi1B",
+              "messageID": "msg_16175b40d001mVcYs60yLXFWlu",
+              "type": "text",
+              "text": "Persistence marker only; do not execute."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "session_delete",
+      "passed": true,
+      "deleteStatus": 200,
+      "subsequentStatus": 404
+    },
+    {
+      "name": "noReply",
+      "passed": true
+    }
+  ]
+}

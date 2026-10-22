@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "accepted": true,
+    "summaryMessage": true,
+    "compactionPart": true,
+    "modelCalled": true,
+    "toolFreeSummary": true
+  },
+  "requestCount": 1
+}

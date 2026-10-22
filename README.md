@@ -14,7 +14,7 @@ See the [team ownership, workload, milestones, and acceptance criteria](docs/tea
 
 ## Status
 
-Planning stage. Implementation has not started, and no experimental results are available yet. The proposed scope below is subject to team review.
+Architecture stage. The owner approved TypeScript + Bun on October 21, 2026. Implementation and project benchmark experiments have not started. OpenCode research results are reference-system evidence, not results for our own agent.
 
 ## Project proposal
 
@@ -42,7 +42,11 @@ The initial focus is small Python repositories, bug fixes, bounded feature addit
 - Persistent project memory and session recovery.
 - Optional planning or review agents after the single-agent workflow is reliable.
 
-Python and Textual are the proposed implementation stack; final choices remain open for team review.
+The selected implementation stack is **TypeScript + Bun**, with **OpenTUI + SolidJS** as the preferred TUI candidate pending a compatibility spike. This supersedes the Python/Textual direction in the unchanged submitted proposal.
+
+- [Architecture, interfaces, and file ownership](docs/architecture-draft.md)
+- [ADR 001: language and stack change](docs/decisions/001-typescript-bun.md)
+- [OpenCode REA findings and evidence](docs/research/opencode/README.md)
 
 ## Evaluation plan
 

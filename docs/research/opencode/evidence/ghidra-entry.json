@@ -1,0 +1,79 @@
+{
+  "evidence_id": "ev_73ae6e0c60d5a5c40fca20d44f9ae1db09ab58e552af116db3e94c99231665f2",
+  "subject": {
+    "name": "OpenCode",
+    "digest": {
+      "sha256": "45e12dd3b76e00c19ca64bb537f0c725abd83de47bb4f711e7d32c5f9438eca8"
+    },
+    "format": "mach-o",
+    "architecture": "arm64",
+    "local_path": "$OPENCODE_APP/Contents/MacOS/OpenCode"
+  },
+  "provider": {
+    "id": "ghidra",
+    "name": "Ghidra",
+    "version": "12.1.4"
+  },
+  "analysis_profile": {
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "parameters": {
+      "target_kind": "executable",
+      "target_format": "mach-o",
+      "architecture": "arm64",
+      "available_architectures": [
+        "arm64"
+      ],
+      "import_mode": "ephemeral-source-immutable",
+      "annotation_policy": "atomic-function-entry-metadata-v1",
+      "load_image_observations": "source-mappings-entry-context-v2",
+      "function_body_evidence": "complete-inclusive-ranges-v1",
+      "function_references": "complete-body-and-entry-reference-manager-v2",
+      "string_inventory_evidence": "defined-data-coverage-v1",
+      "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+      "instruction_flow_evidence": "decoded-return-pcode-v1",
+      "function_boundary_observations": "ghidra-terminal-call-limitations-v1",
+      "no_return_repair": "returning-imports-decoded-return-v2",
+      "process_launch": "inspected-jvm-launch-support-v1",
+      "jump_table_evidence": "typed-case-default-blocks-v1",
+      "decompiler_jump_loads": true,
+      "loader": "auto-from-header",
+      "language_id": "auto-from-header",
+      "compiler_spec_id": "auto-default",
+      "analyzer_preset": "ghidra-default"
+    },
+    "digest": "20565088524a2d0359b9b96f46ac48e679d774c7b0092c56abc06de8fdbec11c"
+  },
+  "predicate_type": "rea.analysis",
+  "operation": "procedure_pseudo_code",
+  "parameters": {
+    "procedure": "0x100000460"
+  },
+  "raw_result": {
+    "value": "\nvoid entry(undefined8 param_1,undefined8 param_2)\n\n{\n  int iVar1;\n  char *pcVar2;\n  \n  FUN_1000004c0();\n  iVar1 = electron::fuses::IsRunAsNodeEnabled();\n  if (((iVar1 != 0) && (pcVar2 = _getenv(\"ELECTRON_RUN_AS_NODE\"), pcVar2 != (char *)0x0)) &&\n     (*pcVar2 != '\\0')) {\n    _ElectronInitializeICUandStartNode(param_1,param_2);\n    return;\n  }\n  _ElectronMain(param_1,param_2);\n  return;\n}\n\n",
+    "limitations": [
+      "Ghidra Listing reports a terminal call at 0x1000004a0 to 0x1000005c8 _ElectronMain (external=false, thunk=true, hasNoReturn=false); fallthrough is excluded by Ghidra's flow model. The reason for the terminal flow is not established by this observation.",
+      "Ghidra Listing reports a terminal call at 0x1000004bc to 0x1000005bc _ElectronInitializeICUandStartNode (external=false, thunk=true, hasNoReturn=false); fallthrough is excluded by Ghidra's flow model. The reason for the terminal flow is not established by this observation."
+    ]
+  },
+  "normalized_result": "\nvoid entry(undefined8 param_1,undefined8 param_2)\n\n{\n  int iVar1;\n  char *pcVar2;\n  \n  FUN_1000004c0();\n  iVar1 = electron::fuses::IsRunAsNodeEnabled();\n  if (((iVar1 != 0) && (pcVar2 = _getenv(\"ELECTRON_RUN_AS_NODE\"), pcVar2 != (char *)0x0)) &&\n     (*pcVar2 != '\\0')) {\n    _ElectronInitializeICUandStartNode(param_1,param_2);\n    return;\n  }\n  _ElectronMain(param_1,param_2);\n  return;\n}\n\n",
+  "confidence": "observed",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+    "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+    "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+    "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+    "Pseudocode is Ghidra decompiler output, not original source and not text-equivalent to Hopper output.",
+    "External functions and functions without an analyzable body return null; other decompiler failures remain explicit.",
+    "Ghidra Listing reports a terminal call at 0x1000004a0 to 0x1000005c8 _ElectronMain (external=false, thunk=true, hasNoReturn=false); fallthrough is excluded by Ghidra's flow model. The reason for the terminal flow is not established by this observation.",
+    "Ghidra Listing reports a terminal call at 0x1000004bc to 0x1000005bc _ElectronInitializeICUandStartNode (external=false, thunk=true, hasNoReturn=false); fallthrough is excluded by Ghidra's flow model. The reason for the terminal flow is not established by this observation.",
+    "macOS sessions require a matching executable Ghidra native decompiler; REA checks for it but does not build native components or change Gatekeeper quarantine state."
+  ],
+  "locations": [],
+  "evidence_links": []
+}

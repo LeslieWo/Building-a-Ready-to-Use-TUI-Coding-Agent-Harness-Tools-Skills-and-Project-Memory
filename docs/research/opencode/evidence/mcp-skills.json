@@ -1,0 +1,66 @@
+{
+  "target": "file://$OPENCODE_APP/Contents/Resources/app.asar/out/main/chunks/node-BOFfwe6w.js",
+  "run": "$ANALYSIS_ROOT/runtime/mcp-skill-probe/run-89skwZ",
+  "model": "deterministic local protocol fixture, not live LLM inference",
+  "agentRequests": 3,
+  "toolParts": [
+    {
+      "id": "prt_161756a84001XHKS7HXDCKIDZ2",
+      "sessionID": "ses_e9e8a97cbffeV2O3RRCiFmItYM",
+      "messageID": "msg_16175690d001pSomohqmO2AC66",
+      "type": "tool",
+      "callID": "call_chain_read",
+      "tool": "localprobe_echo",
+      "state": {
+        "status": "completed",
+        "input": {
+          "value": "aa7534ce-20d5-4ac7-ba7b-dd52e8f024d2"
+        },
+        "output": "MCP_ECHO=aa7534ce-20d5-4ac7-ba7b-dd52e8f024d2",
+        "title": "",
+        "metadata": {
+          "truncated": false
+        },
+        "time": {
+          "start": 1792636447366,
+          "end": 1792636447369
+        }
+      }
+    },
+    {
+      "id": "prt_161756aa10014obm6cpd0qXCuk",
+      "sessionID": "ses_e9e8a97cbffeV2O3RRCiFmItYM",
+      "messageID": "msg_161756a8e001MdRwupQ6HrxH63",
+      "type": "tool",
+      "callID": "call_skill",
+      "tool": "skill",
+      "state": {
+        "status": "completed",
+        "input": {
+          "name": "probe-skill"
+        },
+        "output": "<skill_content name=\"probe-skill\">\n# Skill: probe-skill\n\nSKILL_NONCE=aa7534ce-20d5-4ac7-ba7b-dd52e8f024d2\n\nBase directory for this skill: $ANALYSIS_ROOT/runtime/mcp-skill-probe/run-89skwZ/project/.opencode/skills/probe-skill\nRelative paths in this skill (e.g., scripts/, reference/) are relative to this base directory.\nNote: file list is sampled.\n\n<skill_files>\n\n</skill_files>\n</skill_content>",
+        "title": "Loaded skill: probe-skill",
+        "metadata": {
+          "name": "probe-skill",
+          "dir": "$ANALYSIS_ROOT/runtime/mcp-skill-probe/run-89skwZ/project/.opencode/skills/probe-skill",
+          "truncated": false
+        },
+        "time": {
+          "start": 1792636447395,
+          "end": 1792636447402
+        }
+      }
+    }
+  ],
+  "checks": {
+    "threeModelRequests": true,
+    "mcpDiscovered": true,
+    "mcpCompleted": true,
+    "mcpResultReturned": true,
+    "skillCompleted": true,
+    "skillContentReturned": true,
+    "finalReply": true
+  },
+  "passed": true
+}

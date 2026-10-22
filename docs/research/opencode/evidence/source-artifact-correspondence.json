@@ -1,0 +1,537 @@
+[
+  {
+    "feature": "desktop server listen",
+    "source_path": "packages/desktop/src/main/sidecar.ts",
+    "artifact_path": "out/main/sidecar.js",
+    "anchor": "listener = await Server.listen(",
+    "source_matches": [
+      {
+        "line": 59,
+        "text": "listener = await Server.listen({"
+      }
+    ],
+    "artifact_matches": [
+      {
+        "line": 25,
+        "text": "listener = await Server.listen({"
+      }
+    ],
+    "both_present": true
+  },
+  {
+    "feature": "desktop IPC ready",
+    "source_path": "packages/desktop/src/main/sidecar.ts",
+    "artifact_path": "out/main/sidecar.js",
+    "anchor": "parentPort.postMessage({ type: \"ready\" })",
+    "source_matches": [
+      {
+        "line": 66,
+        "text": "parentPort.postMessage({ type: \"ready\" })"
+      }
+    ],
+    "artifact_matches": [
+      {
+        "line": 32,
+        "text": "parentPort.postMessage({ type: \"ready\" });"
+      }
+    ],
+    "both_present": true
+  },
+  {
+    "feature": "agent termination",
+    "source_path": "packages/opencode/src/session/prompt.ts",
+    "artifact_path": "out/main/chunks/node-BOFfwe6w.js",
+    "anchor": "![\"tool-calls\", \"unknown\"].includes(lastAssistant.finish)",
+    "source_matches": [
+      {
+        "line": 1113,
+        "text": "![\"tool-calls\", \"unknown\"].includes(lastAssistant.finish) &&"
+      }
+    ],
+    "artifact_matches": [
+      {
+        "line": 664261,
+        "text": "if (lastAssistant2?.finish && ![\"tool-calls\", \"unknown\"].includes(lastAssistant2.finish) && !hasToolCalls3 && lastAssistant2.parentID === lastUser.id) {"
+      }
+    ],
+    "both_present": true,
+    "note": "Bundler renamed a local variable; correspondence is structural, not byte-identical."
+  },
+  {
+    "feature": "loop concurrency",
+    "source_path": "packages/opencode/src/session/prompt.ts",
+    "artifact_path": "out/main/chunks/node-BOFfwe6w.js",
+    "anchor": "state.ensureRunning(",
+    "source_matches": [
+      {
+        "line": 1346,
+        "text": "return yield* state.ensureRunning(input.sessionID, lastAssistant(input.sessionID), runLoop(input.sessionID))"
+      }
+    ],
+    "artifact_matches": [
+      {
+        "line": 664447,
+        "text": "return yield* state22.ensureRunning(input.sessionID, lastAssistant(input.sessionID), runLoop(input.sessionID));"
+      }
+    ],
+    "both_present": true,
+    "note": "Bundler renamed a local variable; correspondence is structural, not byte-identical."
+  },
+  {
+    "feature": "provider resolution",
+    "source_path": "packages/opencode/src/provider/provider.ts",
+    "artifact_path": "out/main/chunks/node-BOFfwe6w.js",
+    "anchor": "\"Provider.getLanguage\"",
+    "source_matches": [
+      {
+        "line": 1896,
+        "text": "const getLanguage = Effect.fn(\"Provider.getLanguage\")(function* (model: Model) {"
+      }
+    ],
+    "artifact_matches": [
+      {
+        "line": 680753,
+        "text": "const getLanguage = exports_Effect.fn(\"Provider.getLanguage\")(function* (model8) {"
+      }
+    ],
+    "both_present": true
+  },
+  {
+    "feature": "SDK model loader",
+    "source_path": "packages/opencode/src/provider/provider.ts",
+    "artifact_path": "out/main/chunks/node-BOFfwe6w.js",
+    "anchor": "sdk.languageModel(model.api.id)",
+    "source_matches": [
+      {
+        "line": 1916,
+        "text": ": sdk.languageModel(model.api.id)"
+      }
+    ],
+    "artifact_matches": [
+      {
+        "line": 680765,
+        "text": "}, model8) : sdk.languageModel(model8.api.id);"
+      }
+    ],
+    "both_present": true,
+    "note": "Bundler renamed a local variable; correspondence is structural, not byte-identical."
+  },
+  {
+    "feature": "tool call handling",
+    "source_path": "packages/opencode/src/session/processor.ts",
+    "artifact_path": "out/main/chunks/node-BOFfwe6w.js",
+    "anchor": "case \"tool-call\":",
+    "source_matches": [
+      {
+        "line": 331,
+        "text": "case \"tool-call\": {"
+      }
+    ],
+    "artifact_matches": [
+      {
+        "line": 54537,
+        "text": "case \"tool-call\":"
+      },
+      {
+        "line": 216416,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 243113,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 243680,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 251536,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 253910,
+        "text": "case \"tool-call\":"
+      },
+      {
+        "line": 256710,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 259484,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 261941,
+        "text": "case \"tool-call\":"
+      },
+      {
+        "line": 266708,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 266941,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 267234,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 272676,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 275617,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 275842,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 277754,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 277979,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 279421,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 282752,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 283630,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 305246,
+        "text": "case \"tool-call\":"
+      },
+      {
+        "line": 308507,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 310676,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 330589,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 332910,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 336529,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 337523,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 339001,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 339234,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 339527,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 347212,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 347521,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 353554,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 354255,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 362766,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 363016,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 371292,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 398609,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 400109,
+        "text": "case \"tool-call\":"
+      },
+      {
+        "line": 401237,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 403475,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 403979,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 451533,
+        "text": "case \"tool-call\":"
+      },
+      {
+        "line": 466634,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 669761,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 673129,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 673362,
+        "text": "case \"tool-call\": {"
+      },
+      {
+        "line": 673651,
+        "text": "case \"tool-call\": {"
+      }
+    ],
+    "both_present": true
+  },
+  {
+    "feature": "tool result handling",
+    "source_path": "packages/opencode/src/session/processor.ts",
+    "artifact_path": "out/main/chunks/node-BOFfwe6w.js",
+    "anchor": "case \"tool-result\":",
+    "source_matches": [
+      {
+        "line": 383,
+        "text": "case \"tool-result\": {"
+      }
+    ],
+    "artifact_matches": [
+      {
+        "line": 54539,
+        "text": "case \"tool-result\":"
+      },
+      {
+        "line": 243816,
+        "text": "case \"tool-result\": {"
+      },
+      {
+        "line": 251626,
+        "text": "case \"tool-result\": {"
+      },
+      {
+        "line": 259574,
+        "text": "case \"tool-result\": {"
+      },
+      {
+        "line": 267349,
+        "text": "case \"tool-result\": {"
+      },
+      {
+        "line": 283661,
+        "text": "case \"tool-result\": {"
+      },
+      {
+        "line": 308528,
+        "text": "case \"tool-result\": {"
+      },
+      {
+        "line": 310703,
+        "text": "case \"tool-result\": {"
+      },
+      {
+        "line": 330617,
+        "text": "case \"tool-result\": {"
+      },
+      {
+        "line": 332937,
+        "text": "case \"tool-result\": {"
+      },
+      {
+        "line": 339642,
+        "text": "case \"tool-result\": {"
+      },
+      {
+        "line": 347526,
+        "text": "case \"tool-result\": {"
+      },
+      {
+        "line": 363031,
+        "text": "case \"tool-result\": {"
+      },
+      {
+        "line": 371319,
+        "text": "case \"tool-result\": {"
+      },
+      {
+        "line": 398619,
+        "text": "case \"tool-result\": {"
+      },
+      {
+        "line": 398638,
+        "text": "case \"tool-result\": {"
+      },
+      {
+        "line": 400119,
+        "text": "case \"tool-result\": {"
+      },
+      {
+        "line": 401322,
+        "text": "case \"tool-result\": {"
+      },
+      {
+        "line": 403480,
+        "text": "case \"tool-result\": {"
+      },
+      {
+        "line": 404015,
+        "text": "case \"tool-result\": {"
+      },
+      {
+        "line": 451546,
+        "text": "case \"tool-result\":"
+      },
+      {
+        "line": 466666,
+        "text": "case \"tool-result\": {"
+      },
+      {
+        "line": 673766,
+        "text": "case \"tool-result\": {"
+      }
+    ],
+    "both_present": true
+  },
+  {
+    "feature": "repeat-call permission",
+    "source_path": "packages/opencode/src/session/processor.ts",
+    "artifact_path": "out/main/chunks/node-BOFfwe6w.js",
+    "anchor": "permission: \"doom_loop\"",
+    "source_matches": [
+      {
+        "line": 373,
+        "text": "permission: \"doom_loop\","
+      }
+    ],
+    "artifact_matches": [
+      {
+        "line": 466657,
+        "text": "permission: \"doom_loop\","
+      }
+    ],
+    "both_present": true
+  },
+  {
+    "feature": "compaction tail",
+    "source_path": "packages/opencode/src/session/compaction.ts",
+    "artifact_path": "out/main/chunks/node-BOFfwe6w.js",
+    "anchor": "tail_start_id: keep.id",
+    "source_matches": [
+      {
+        "line": 267,
+        "text": "tail_start_id: keep.id,"
+      }
+    ],
+    "artifact_matches": [
+      {
+        "line": 467177,
+        "text": "tail_start_id: keep.id"
+      }
+    ],
+    "both_present": true
+  },
+  {
+    "feature": "compaction tools disabled",
+    "source_path": "packages/opencode/src/session/compaction.ts",
+    "artifact_path": "out/main/chunks/node-BOFfwe6w.js",
+    "anchor": "tools: {}",
+    "source_matches": [
+      {
+        "line": 429,
+        "text": "tools: {},"
+      }
+    ],
+    "artifact_matches": [
+      {
+        "line": 467319,
+        "text": "tools: {},"
+      },
+      {
+        "line": 663525,
+        "text": "tools: {},"
+      },
+      {
+        "line": 687504,
+        "text": "tools: {},"
+      }
+    ],
+    "both_present": true
+  },
+  {
+    "feature": "instruction global file",
+    "source_path": "packages/opencode/src/session/instruction.ts",
+    "artifact_path": "out/main/chunks/node-BOFfwe6w.js",
+    "anchor": "\"AGENTS.md\"",
+    "source_matches": [
+      {
+        "line": 61,
+        "text": "path.join(global.config, \"AGENTS.md\"),"
+      },
+      {
+        "line": 65,
+        "text": "\"AGENTS.md\","
+      }
+    ],
+    "artifact_matches": [
+      {
+        "line": 365925,
+        "text": "\"instructions\": [\"AGENTS.md\", \"docs/style.md\"],"
+      },
+      {
+        "line": 372008,
+        "text": "targets: [\"AGENTS.md\"],"
+      },
+      {
+        "line": 372012,
+        "text": "const paths3 = exports_Array.dedupe([yield* fs82.resolve(join$1(global2.config, \"AGENTS.md\")), ...discovered]);"
+      },
+      {
+        "line": 467653,
+        "text": "path79__default.join(global2.config, \"AGENTS.md\"),"
+      },
+      {
+        "line": 467657,
+        "text": "\"AGENTS.md\","
+      }
+    ],
+    "both_present": true
+  }
+]

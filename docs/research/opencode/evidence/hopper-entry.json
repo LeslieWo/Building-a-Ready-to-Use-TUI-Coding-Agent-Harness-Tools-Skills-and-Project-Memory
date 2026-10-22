@@ -1,0 +1,57 @@
+{
+  "evidence_id": "ev_b08f5d2acce7ab793b33409923e2ff1d7706cb47fca715ee02e5535ca8b02e66",
+  "subject": {
+    "name": "OpenCode",
+    "digest": {
+      "sha256": "45e12dd3b76e00c19ca64bb537f0c725abd83de47bb4f711e7d32c5f9438eca8"
+    },
+    "format": "mach-o",
+    "architecture": "arm64",
+    "local_path": "$OPENCODE_APP/Contents/MacOS/OpenCode"
+  },
+  "provider": {
+    "id": "hopper",
+    "name": "Hopper Disassembler",
+    "version": "launcher-sha256:dad6f886261fad0d4cdd01aee6fcf57439c60d7b5c54e62fc97f0180116690e0"
+  },
+  "analysis_profile": {
+    "provider": {
+      "id": "hopper",
+      "name": "Hopper Disassembler",
+      "version": "launcher-sha256:dad6f886261fad0d4cdd01aee6fcf57439c60d7b5c54e62fc97f0180116690e0"
+    },
+    "parameters": {
+      "target_kind": "executable",
+      "target_format": "mach-o",
+      "architecture": "arm64",
+      "available_architectures": [
+        "arm64"
+      ],
+      "macho_container": "thin",
+      "loader": {
+        "source": "derived",
+        "arguments": [
+          "-l",
+          "Mach-O",
+          "--aarch64"
+        ]
+      }
+    },
+    "digest": "d3f4b3f6dbfc0da3988f09b62edcc46542236b61e0c424dd86b97c79eb5f9b51"
+  },
+  "predicate_type": "rea.analysis",
+  "operation": "procedure_pseudo_code",
+  "parameters": {
+    "procedure": "0x100000460"
+  },
+  "raw_result": null,
+  "normalized_result": "    var_10 = r20;\n    decomp_var_8 = r19;\n    r31 = r31 + 0xffffffffffffffe0;\n    saved_fp = r29;\n    decomp_var_m8 = r30;\n    r19 = arg1;\n    r20 = arg0;\n    sub_1000004c0();\n    if (electron::fuses::IsRunAsNodeEnabled() != 0x0) {\n            r0 = getenv(\"ELECTRON_RUN_AS_NODE\");\n            if (r0 == 0x0) {\n                    r0 = ElectronMain();\n            }\n            else {\n                    if (*(int8_t *)r0 != 0x0) {\n                            r0 = ElectronInitializeICUandStartNode();\n                    }\n                    else {\n                            r0 = ElectronMain();\n                    }\n            }\n    }\n    else {\n            r0 = ElectronMain();\n    }\n    return r0;\n",
+  "confidence": "observed",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "Results depend on Hopper's completed static analysis."
+  ],
+  "locations": [],
+  "evidence_links": []
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "published": "source-tree-verification.json",
+    "local_source_relative": "source/source-tree-verification.json",
+    "original_sha256": "91234e28b2737d45a9a3f385248c89c391ede551ae6c898df65f1bd120fd2854",
+    "published_sha256": "5b97bad49d1863a6dce1ee303be56697531ba14a15e968b7c2ba734d46b49c60",
+    "transformation": "JSON reformatted; local analysis/home/application paths replaced with symbolic roots. Controlled fixture IDs and nonces retained."
+  },
+  {
+    "published": "source-artifact-correspondence.json",
+    "local_source_relative": "source/source-artifact-correspondence.json",
+    "original_sha256": "f786b70fcfec45512ea85033f719b782f6bec3b3cd5ba027261e287d51627ca4",
+    "published_sha256": "c337f9ab1ddea6742750d911e15f394b318efbbef5a674e90124159991f3c884",
+    "transformation": "JSON reformatted; local analysis/home/application paths replaced with symbolic roots. Controlled fixture IDs and nonces retained."
+  },
+  {
+    "published": "source-integrity.json",
+    "local_source_relative": "validation/official-tests/source-integrity.json",
+    "original_sha256": "29c76ca086063bbd8b3e0066026c129db8a454100fb3acae04ee7fa33446b9b6",
+    "published_sha256": "1aac6f4b7d40ca0556cc862f5363b26d2e52095fc9776364465ab5c152456ffb",
+    "transformation": "JSON reformatted; local analysis/home/application paths replaced with symbolic roots. Controlled fixture IDs and nonces retained."
+  },
+  {
+    "published": "official-suite-counts.json",
+    "local_source_relative": "validation/official-tests/suite-counts.json",
+    "original_sha256": "e26129fab6f9c36631072adae1f24b7979691b7b971735f88f022f4efb59e92a",
+    "published_sha256": "4325911cd6183ced75311feeb6892eab144aec7a22dca845b305356607da264b",
+    "transformation": "JSON reformatted; local analysis/home/application paths replaced with symbolic roots. Controlled fixture IDs and nonces retained."
+  },
+  {
+    "published": "agent-chain.json",
+    "local_source_relative": "runtime/agent-chain/run-nYELoq/summary.json",
+    "original_sha256": "617deb49987be94f52e56eeefd8bab5a1ac0c7168cd83796a4e04756fc9badde",
+    "published_sha256": "436eef647b631daef72d73723051a4b9abd681ec03f1b2fc8d6768663e54d74f",
+    "transformation": "JSON reformatted; local analysis/home/application paths replaced with symbolic roots. Controlled fixture IDs and nonces retained."
+  },
+  {
+    "published": "native-tools.json",
+    "local_source_relative": "runtime/feature-matrix/run-IP71e5/summary.json",
+    "original_sha256": "72495ad9c373f16ba0089fb68a90e8995b3f24ff7498cfa10b25eae9ac128551",
+    "published_sha256": "c1e8aeb60bb64b125f830864e66afd892516dbcdeeb135b8559ee394e006401f",
+    "transformation": "JSON reformatted; local analysis/home/application paths replaced with symbolic roots. Controlled fixture IDs and nonces retained."
+  },
+  {
+    "published": "mcp-skills.json",
+    "local_source_relative": "runtime/mcp-skill-probe/run-89skwZ/summary.json",
+    "original_sha256": "8bb5c8584153276a6ca8a2306d35600b7728b1a2469826a5e3ba2c338b973539",
+    "published_sha256": "2423fa7f2c946e5fb083d4375d801328054231516e89f9f8b67d1a3f09685d31",
+    "transformation": "JSON reformatted; local analysis/home/application paths replaced with symbolic roots. Controlled fixture IDs and nonces retained."
+  },
+  {
+    "published": "persistence.json",
+    "local_source_relative": "runtime/persistence-probe/run-bl7QJ0/summary.json",
+    "original_sha256": "11f119c3abbca9413c8a10ecca24b168a880f8ff232a47744c141132f9a45827",
+    "published_sha256": "db81149aee6520775f83cbfd64b17622f5290f48fd396bb71a3582a85881f679",
+    "transformation": "JSON reformatted; local analysis/home/application paths replaced with symbolic roots. Controlled fixture IDs and nonces retained."
+  },
+  {
+    "published": "cancellation.json",
+    "local_source_relative": "runtime/cancel-probe/run-nKH1al/summary.json",
+    "original_sha256": "c39a807d34b582e7ecda8d6f50974b174fa71ab90bfea8f761c9c84d9f07a0cd",
+    "published_sha256": "d7a4f36cd5af7919cf0e795947e87a33c610999a8be7d2b5fdc63e074fc90a70",
+    "transformation": "JSON reformatted; local analysis/home/application paths replaced with symbolic roots. Controlled fixture IDs and nonces retained."
+  },
+  {
+    "published": "compaction.json",
+    "local_source_relative": "runtime/compaction-probe/run-uXwkJM/compaction-summary.json",
+    "original_sha256": "803d78177ed8b87352aeb88e78fad9f9bdb495396165b5d2914e7cd31ce78194",
+    "published_sha256": "9756a45ddf33152aecc509d279f87ffd8605aec06fa3fde88556f64c1ac59c92",
+    "transformation": "JSON reformatted; local analysis/home/application paths replaced with symbolic roots. Controlled fixture IDs and nonces retained."
+  },
+  {
+    "published": "api-smoke.json",
+    "local_source_relative": "runtime/api-smoke/run-LCycPh/summary.json",
+    "original_sha256": "0c8270c278800a01d0247fcecc4529dccaff583ac7ed782b49080c86c4e8d257",
+    "published_sha256": "19e36795a0c389efb0fea6e5a6eece38047c64e0c900060e05dacd3a9cd4cbef",
+    "transformation": "JSON reformatted; local analysis/home/application paths replaced with symbolic roots. Controlled fixture IDs and nonces retained. HTTP smoke response bodies omitted to exclude configuration and upstream prompt content; bounded session-operation records retained."
+  },
+  {
+    "published": "ghidra-entry.json",
+    "local_source_relative": "native/ghidra-entry.json",
+    "original_sha256": "c204e3faf91c27fd80c8d1f701f67c48d41870bda6155038f3f04f11c37c6e6b",
+    "published_sha256": "60411fa208093ce1b49d7c04fd5df5a0975c0012d2bd25da5d63b144bb5dd2ad",
+    "transformation": "JSON reformatted; local analysis/home/application paths replaced with symbolic roots. Controlled fixture IDs and nonces retained."
+  },
+  {
+    "published": "hopper-entry.json",
+    "local_source_relative": "native/hopper-entry.json",
+    "original_sha256": "1ddf34c3a09d6cad58e2343841e9de6f2a4b2eb9b56ba60d67320f83a31efd1e",
+    "published_sha256": "9532c26515d19a4235f95a7cb9ad329554e196749b88fb953cc2c11c74ee14d7",
+    "transformation": "JSON reformatted; local analysis/home/application paths replaced with symbolic roots. Controlled fixture IDs and nonces retained."
+  },
+  {
+    "published": "api-coverage.csv",
+    "local_source_relative": "API_COVERAGE.csv",
+    "original_sha256": "819d02e4ee7c5ced7beaab337ae10e9a067b1c21b581569b37b504dc846c38a3",
+    "published_sha256": "819d02e4ee7c5ced7beaab337ae10e9a067b1c21b581569b37b504dc846c38a3",
+    "transformation": "None"
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "target": "file://$OPENCODE_APP/Contents/Resources/app.asar/out/main/chunks/node-BOFfwe6w.js",
+  "run": "$ANALYSIS_ROOT/runtime/agent-chain/run-nYELoq",
+  "model": "deterministic local protocol fixture, not live LLM inference",
+  "agentRequests": 2,
+  "toolParts": [
+    {
+      "id": "prt_16170ea88001lUvoOsNpfQ3Myo",
+      "sessionID": "ses_e9e8f1738ffe8pJ1DdfXSkhjK3",
+      "messageID": "msg_16170e99b001nKMiopQHItNY6W",
+      "type": "tool",
+      "callID": "call_chain_read",
+      "tool": "read",
+      "state": {
+        "status": "completed",
+        "input": {
+          "filePath": "$ANALYSIS_ROOT/runtime/agent-chain/run-nYELoq/project/probe.txt"
+        },
+        "output": "<path>$ANALYSIS_ROOT/runtime/agent-chain/run-nYELoq/project/probe.txt</path>\n<type>file</type>\n<content>\n1: CHAIN_PROBE=d92e61ee-12db-4404-8752-33f9e0372e29\n\n(End of file - total 1 lines)\n</content>",
+        "title": "$ANALYSIS_ROOT/runtime/agent-chain/run-nYELoq/project/probe.txt",
+        "metadata": {
+          "preview": "CHAIN_PROBE=d92e61ee-12db-4404-8752-33f9e0372e29",
+          "truncated": false,
+          "loaded": [],
+          "display": {
+            "type": "file",
+            "path": "$ANALYSIS_ROOT/runtime/agent-chain/run-nYELoq/project/probe.txt",
+            "text": "CHAIN_PROBE=d92e61ee-12db-4404-8752-33f9e0372e29",
+            "lineStart": 1,
+            "lineEnd": 1,
+            "totalLines": 1,
+            "truncated": false
+          }
+        },
+        "time": {
+          "start": 1792636152459,
+          "end": 1792636152465
+        }
+      }
+    }
+  ],
+  "checks": {
+    "twoModelRequests": true,
+    "readCompleted": true,
+    "nonceInSecondToolResult": true,
+    "finalReply": true
+  },
+  "passed": true
+}

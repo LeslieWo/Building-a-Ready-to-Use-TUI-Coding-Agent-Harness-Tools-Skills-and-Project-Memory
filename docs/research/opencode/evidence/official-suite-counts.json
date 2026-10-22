@@ -1,0 +1,128 @@
+[
+  {
+    "suite": "core",
+    "pass": 1091,
+    "fail": 0,
+    "skip": 6,
+    "observed_failure_markers": 0
+  },
+  {
+    "suite": "opencode",
+    "pass": null,
+    "fail": null,
+    "skip": 0,
+    "observed_failure_markers": 1
+  },
+  {
+    "suite": "tui",
+    "pass": 193,
+    "fail": 0,
+    "skip": 1,
+    "observed_failure_markers": 0
+  },
+  {
+    "suite": "app",
+    "pass": 723,
+    "fail": 1,
+    "skip": 0,
+    "observed_failure_markers": 1
+  },
+  {
+    "suite": "app-browser",
+    "pass": 41,
+    "fail": 0,
+    "skip": 0,
+    "observed_failure_markers": 0
+  },
+  {
+    "suite": "app-e2e",
+    "pass": 0,
+    "fail": 1,
+    "skip": 0,
+    "observed_failure_markers": 0
+  },
+  {
+    "suite": "llm",
+    "pass": 298,
+    "fail": 0,
+    "skip": 30,
+    "observed_failure_markers": 0
+  },
+  {
+    "suite": "httpapi-codegen",
+    "pass": 65,
+    "fail": 1,
+    "skip": 0,
+    "observed_failure_markers": 1
+  },
+  {
+    "suite": "httpapi-codegen-ascii",
+    "pass": 66,
+    "fail": 0,
+    "skip": 0,
+    "observed_failure_markers": 0
+  },
+  {
+    "suite": "effect-drizzle-sqlite",
+    "pass": 7,
+    "fail": 0,
+    "skip": 0,
+    "observed_failure_markers": 0
+  },
+  {
+    "suite": "session-ui",
+    "pass": 83,
+    "fail": 0,
+    "skip": 0,
+    "observed_failure_markers": 0
+  },
+  {
+    "suite": "ui",
+    "pass": 27,
+    "fail": 0,
+    "skip": 0,
+    "observed_failure_markers": 0
+  },
+  {
+    "suite": "http-recorder",
+    "pass": 33,
+    "fail": 0,
+    "skip": 0,
+    "observed_failure_markers": 0
+  },
+  {
+    "suite": "codemode",
+    "pass": 263,
+    "fail": 0,
+    "skip": 0,
+    "observed_failure_markers": 0
+  },
+  {
+    "suite": "client",
+    "pass": 16,
+    "fail": 0,
+    "skip": 0,
+    "observed_failure_markers": 0
+  },
+  {
+    "suite": "sdk-next",
+    "pass": 2,
+    "fail": 3,
+    "skip": 0,
+    "observed_failure_markers": 3
+  },
+  {
+    "suite": "opencode-oauth",
+    "pass": 77,
+    "fail": 0,
+    "skip": 0,
+    "observed_failure_markers": 0
+  },
+  {
+    "suite": "opencode-pty",
+    "pass": 3,
+    "fail": 1,
+    "skip": 0,
+    "observed_failure_markers": 1
+  }
+]

@@ -1,0 +1,112 @@
+{
+  "checks": {
+    "abortAccepted": true,
+    "oneModelRequest": true,
+    "abortRecorded": true,
+    "notBusy": true
+  },
+  "response": {
+    "info": {
+      "parentID": "msg_161769609001tQKpfG6z3s1PM0",
+      "role": "assistant",
+      "mode": "build",
+      "agent": "build",
+      "path": {
+        "cwd": "$ANALYSIS_ROOT/runtime/cancel-probe/run-nKH1al/project",
+        "root": "/"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "reasoning": 0,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "modelID": "probe",
+      "providerID": "chainprobe",
+      "time": {
+        "created": 1792636524234,
+        "completed": 1792636524469
+      },
+      "error": {
+        "name": "MessageAbortedError",
+        "data": {
+          "message": "Aborted"
+        }
+      },
+      "id": "msg_1617696ca001XHfaTmggW6wNON",
+      "sessionID": "ses_e9e896a05ffeF70dBqZlZzIu56"
+    },
+    "parts": []
+  },
+  "messages": [
+    {
+      "info": {
+        "id": "msg_161769609001tQKpfG6z3s1PM0",
+        "sessionID": "ses_e9e896a05ffeF70dBqZlZzIu56",
+        "role": "user",
+        "time": {
+          "created": 1792636524041
+        },
+        "summary": {
+          "diffs": []
+        },
+        "agent": "build",
+        "model": {
+          "providerID": "chainprobe",
+          "modelID": "probe"
+        }
+      },
+      "parts": [
+        {
+          "id": "prt_16176960b001WZzoWdtge77oiG",
+          "sessionID": "ses_e9e896a05ffeF70dBqZlZzIu56",
+          "messageID": "msg_161769609001tQKpfG6z3s1PM0",
+          "type": "text",
+          "text": "Cancellation test."
+        }
+      ]
+    },
+    {
+      "info": {
+        "id": "msg_1617696ca001XHfaTmggW6wNON",
+        "sessionID": "ses_e9e896a05ffeF70dBqZlZzIu56",
+        "role": "assistant",
+        "time": {
+          "created": 1792636524234,
+          "completed": 1792636524469
+        },
+        "error": {
+          "name": "MessageAbortedError",
+          "data": {
+            "message": "Aborted"
+          }
+        },
+        "parentID": "msg_161769609001tQKpfG6z3s1PM0",
+        "modelID": "probe",
+        "providerID": "chainprobe",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "$ANALYSIS_ROOT/runtime/cancel-probe/run-nKH1al/project",
+          "root": "/"
+        },
+        "cost": 0,
+        "tokens": {
+          "input": 0,
+          "output": 0,
+          "reasoning": 0,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        }
+      },
+      "parts": []
+    }
+  ],
+  "status": {}
+}

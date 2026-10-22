@@ -1,0 +1,84 @@
+{
+  "target": "file://$OPENCODE_APP/Contents/Resources/app.asar/out/main/chunks/node-BOFfwe6w.js",
+  "run": "$ANALYSIS_ROOT/runtime/feature-matrix/run-IP71e5",
+  "model": "local deterministic fixture",
+  "results": [
+    {
+      "name": "read",
+      "checks": {
+        "rounds": true,
+        "toolStatus": true,
+        "behavior": true,
+        "finalReply": true
+      },
+      "passed": true,
+      "sessionID": "ses_e9e8aaab1ffeZ80mMkvIeT6Q8J"
+    },
+    {
+      "name": "missing_file",
+      "checks": {
+        "rounds": true,
+        "toolStatus": true,
+        "behavior": true,
+        "finalReply": true
+      },
+      "passed": true,
+      "sessionID": "ses_e9e8aa916ffeorecF8IGt6kbun"
+    },
+    {
+      "name": "glob",
+      "checks": {
+        "rounds": true,
+        "toolStatus": true,
+        "behavior": true,
+        "finalReply": true
+      },
+      "passed": true,
+      "sessionID": "ses_e9e8aa899ffe1tI6P6bgoCoGwA"
+    },
+    {
+      "name": "grep",
+      "checks": {
+        "rounds": true,
+        "toolStatus": true,
+        "behavior": true,
+        "finalReply": true
+      },
+      "passed": true,
+      "sessionID": "ses_e9e8aa86bffeom6ZJFG6Eu0mVB"
+    },
+    {
+      "name": "write",
+      "checks": {
+        "rounds": true,
+        "toolStatus": true,
+        "behavior": true,
+        "finalReply": true
+      },
+      "passed": true,
+      "sessionID": "ses_e9e8aa842ffeVD3jp0ec3fmH8b"
+    },
+    {
+      "name": "edit",
+      "checks": {
+        "rounds": true,
+        "toolStatus": true,
+        "behavior": true,
+        "finalReply": true
+      },
+      "passed": true,
+      "sessionID": "ses_e9e8aa81fffeC4HxTszsusku74"
+    },
+    {
+      "name": "bash",
+      "checks": {
+        "rounds": true,
+        "toolStatus": true,
+        "behavior": true,
+        "finalReply": true
+      },
+      "passed": true,
+      "sessionID": "ses_e9e8aa7f0ffeq5YUHJFcNAayrD"
+    }
+  ]
+}
