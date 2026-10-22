@@ -14,9 +14,9 @@ See the [team ownership, workload, milestones, and acceptance criteria](docs/tea
 
 ## Status
 
-Siyuan's initial headless runtime is implemented: model adapter, agent loop, budgets, context and isolated project facts. Offline tests and a deterministic file-reading demo are available. Production tools/MCP/skills, TUI/session integration and project benchmarks remain outstanding. OpenCode research results are reference-system evidence, not results for our own agent.
+Siyuan's initial headless runtime is implemented: model adapter, agent loop, budgets, context and isolated project facts. Offline tests, a deterministic demo, and a successful live GLM-5.3 code-repair acceptance are available. Production tools/MCP/skills, TUI/session integration and project benchmarks remain outstanding. OpenCode research results are reference-system evidence, not results for our own agent.
 
-See [runtime setup, runnable demo and teammate integration](docs/runtime-development.md).
+See [runtime setup, runnable demo and teammate integration](docs/runtime-development.md), [live acceptance evidence](docs/validation/live-repair-2026-10-21/README.md), and [Siyuan's four draft evaluation tasks](eval/tasks/siyuan/README.md).
 
 ## Project proposal
 

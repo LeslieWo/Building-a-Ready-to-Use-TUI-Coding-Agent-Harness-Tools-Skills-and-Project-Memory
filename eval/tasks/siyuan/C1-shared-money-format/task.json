@@ -1,0 +1,13 @@
+{
+  "id": "C1-shared-money-format",
+  "owner": "Siyuan Liang",
+  "category": "cross-file",
+  "status": "draft-awaiting-independent-review",
+  "prompt": "Make receipt rendering consistently use money.format_cents across orders.py and receipts.py. Input amounts are integer cents and may be negative. format_cents must render an optional minus sign before the dollar symbol, exactly two decimal digits, and handle large integers without float precision loss. Preserve total_cents and receipt ordering. Fix the formatter and route receipt line amounts and totals through the shared formatter.",
+  "workspace": "workspace",
+  "heldout": "heldout",
+  "language": "Python 3",
+  "dependencies": "standard library only",
+  "orientation": "Inspect repository files and discover the visible unittest command. All configurations receive the same orientation opportunity.",
+  "acceptance": "All original visible and held-out tests pass; no test or infrastructure changes allowed."
+}

@@ -19,3 +19,4 @@ coverage/
 dist/
 .worktrees/
 *.tsbuildinfo
+reports/

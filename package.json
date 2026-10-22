@@ -11,7 +11,8 @@
     "format:check": "prettier --check src tests examples package.json tsconfig.json eslint.config.js",
     "demo": "bun examples/runtime-demo.ts",
     "demo:node": "bun build examples/runtime-demo.ts --target=node --outfile=dist/runtime-demo.js && node dist/runtime-demo.js",
-    "smoke:live": "bun examples/live-smoke.ts"
+    "smoke:live": "bun examples/live-smoke.ts",
+    "acceptance:live": "bun examples/live-repair.ts"
   },
   "dependencies": {
     "openai": "7.41.0",

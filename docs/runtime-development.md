@@ -91,6 +91,10 @@ Set `AGENT_API_KEY`, `AGENT_MODEL` and optionally `AGENT_BASE_URL` in your shell
 bun run smoke:live
 ```
 
-This sends a paid-provider request if configured, with no tools and a 30-second limit. It prints status, reply and usage, never the key. This smoke has not been run as part of the offline test suite. Fixture success does not certify a particular live service, OAuth flow, production tool boundary or TUI integration.
+This sends a paid-provider request if configured, with no tools and a 30-second limit. It prints status, reply and usage, never the key. A configured Z.AI/GLM-5.3 no-tools smoke and a separate live code-repair acceptance have now passed; they are not part of the offline test suite. See [live acceptance evidence](validation/live-repair-2026-10-21/README.md). Fixture success does not certify a particular live service, OAuth flow, production tool boundary or TUI integration.
 
 Reference implementations: [official OpenAI JavaScript SDK](https://github.com/openai/openai-node), [Zod JSON schemas](https://zod.dev/json-schema), [Bun TypeScript documentation](https://bun.sh/docs/runtime/typescript). OpenCode architectural research is documented separately under `docs/research/opencode`; this implementation is independently written.
+
+## Live code repair and evaluation preparation
+
+`bun run acceptance:live` uses four narrowly scoped development tools to read and fix a disposable Python fixture, run visible tests, and independently check held-out assertions. It saves local evidence under ignored reports/. The numerical candidate passes a narrow AST policy before test execution; this is not a general-purpose sandbox. See [published evidence](validation/live-repair-2026-10-21/README.md), [four draft evaluation tasks](../eval/tasks/siyuan/README.md), and [draft technical report/demo sequence](report/siyuan-runtime-section.md). Production tool/session integration and formal A/B/C/D trials remain pending.

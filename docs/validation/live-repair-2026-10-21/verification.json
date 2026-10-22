@@ -1,0 +1,14 @@
+{
+  "initialVisible": {
+    "passed": false,
+    "output": "F.F\n======================================================================\nFAIL: test_above (__main__.Visible)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"$FIXTURE/visible.py\", line 29, in test_above\n    def test_above(self): self.assertEqual(clamp(12, 0, 10), 10)\nAssertionError: 0 != 10\n\n======================================================================\nFAIL: test_inside (__main__.Visible)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"$FIXTURE/visible.py\", line 27, in test_inside\n    def test_inside(self): self.assertEqual(clamp(5, 0, 10), 5)\nAssertionError: 0 != 5\n\n----------------------------------------------------------------------\nRan 3 tests in 0.000s\n\nFAILED (failures=2)\n"
+  },
+  "visible": {
+    "passed": true,
+    "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.000s\n\nOK\n"
+  },
+  "heldOut": {
+    "passed": true,
+    "output": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "traceSha256": "ec4ec7a4e9129de7bfa9d4edef94d9e46359bbdad4d4fffb9d82c8f1088bc2fb",
+  "criterion": "Successful read_source and read_tests before first successful write; successful run_tests after last successful write.",
+  "note": "Offline revalidation of the recorded live run after strengthening acceptance. No new live request."
+}

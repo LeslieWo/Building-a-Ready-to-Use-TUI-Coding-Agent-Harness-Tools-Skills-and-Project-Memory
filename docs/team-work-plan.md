@@ -42,6 +42,13 @@ Each member also owns four evaluation tasks (4 points), 32 planned evaluation ru
 
 **Writing and demo:** explain user interaction, recovery behavior, and evaluation infrastructure; demonstrate the TUI and a saved-session restore.
 
+## Siyuan implementation checkpoint (October 21, 2026)
+
+- First runtime/provider/context/memory implementation is available on `feat/siyuan-agent-runtime`.
+- A real GLM-5.3 code-repair development acceptance passed; see [evidence](validation/live-repair-2026-10-21/README.md).
+- [Four candidate tasks](../eval/tasks/siyuan/README.md) and a [technical report/demo draft](report/siyuan-runtime-section.md) are prepared.
+- Production tool/TUI/session integration, teammate review/freeze, all 32 formal runs, analysis, final report and demo delivery remain outstanding. The original scope checkboxes represent full acceptance, not just code availability.
+
 ## Shared interfaces: agree before implementation
 
 All paths below are proposed ownership boundaries, not existing files.

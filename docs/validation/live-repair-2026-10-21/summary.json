@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "scenario": "development-clamp-repair",
+  "started": "2026-10-22T03:09:02.790Z",
+  "model": "glm-5.3",
+  "passed": true,
+  "status": "completed",
+  "reason": "model_finished",
+  "modelTurns": 4,
+  "toolCalls": 4,
+  "totalTokens": 4671,
+  "usageEstimated": false,
+  "elapsedMs": 22556,
+  "sourceBeforeSha256": "9cc8b784289f1dd76e796379759e8c60d91b59cc9a4f14373b1385bae2e7d13d",
+  "sourceAfterSha256": "8f424de02353a3b09c4824e43703cd92b9782175ffe3b321a4c8c161310aff38",
+  "initialVisiblePassed": false,
+  "visiblePassed": true,
+  "heldOutPassed": true,
+  "successfulTools": [
+    "read_source",
+    "read_tests",
+    "replace_source",
+    "run_tests"
+  ],
+  "providerFailures": [],
+  "limitations": [
+    "Single development task, not the frozen benchmark.",
+    "Fixture tools, not the production team registry.",
+    "Fixed test commands and cleared child environment are not an OS sandbox.",
+    "Event sink is in-memory; no persistence or TUI integration claim."
+  ]
+}
