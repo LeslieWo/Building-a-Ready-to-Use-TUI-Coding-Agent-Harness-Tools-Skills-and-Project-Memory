@@ -8,6 +8,10 @@ A CS 5100 team project exploring the harness behind a terminal-based coding agen
 - Joe Zou
 - Ni Li
 
+## Team work plan
+
+See the [team ownership, workload, milestones, and acceptance criteria](docs/team-work-plan.md). Each member owns a substantial engineering area, four benchmark tasks, an equal share of planned experiments, and report/demo contributions.
+
 ## Status
 
 Planning stage. Implementation has not started, and no experimental results are available yet. The proposed scope below is subject to team review.
