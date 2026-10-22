@@ -14,7 +14,13 @@ Planning stage. Implementation has not started, and no experimental results are 
 
 ## Project proposal
 
-Read the full English proposal draft: [PDF](docs/project-proposal.pdf) or [plain text](docs/project-proposal.txt). It includes the motivation, paper-by-paper related-work analysis, methodology and alternatives, expected results, evaluation controls, and references. The draft remains subject to team review and has not been submitted to the course platform.
+The English proposal was submitted to Gradescope on October 21, 2026, for Siyuan Liang, Joe Zou, and Ni Li.
+
+- [Submitted English PDF](docs/project-proposal.pdf) — the exact file uploaded to Gradescope.
+- [Chinese review HTML](docs/project-proposal-zh.html) — download the file and open it in a browser to view the formatted page. GitHub's file view displays HTML source.
+- [English plain text](docs/project-proposal.txt).
+
+These documents cover the motivation, related-work analysis, methodology and alternatives, expected results, evaluation controls, and references. The Chinese HTML is a review aid; the English PDF is the submitted version. Implementation and experiments remain planned work.
 
 ## Project goal
 
@@ -55,4 +61,4 @@ OpenCode is the product inspiration. Any reused implementation must be attribute
 
 ## Repository language
 
-Use English for all repository content: documentation, code comments, user-facing strings, issues, pull requests, and commit messages. See [AGENTS.md](AGENTS.md) for the persistent project convention.
+Use English for repository content: documentation, code comments, user-facing strings, issues, pull requests, and commit messages. The owner explicitly authorized the Chinese proposal review HTML as an exception. See [AGENTS.md](AGENTS.md) for the persistent project convention.
