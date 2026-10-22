@@ -12,6 +12,10 @@ A CS 5100 team project exploring the harness behind a terminal-based coding agen
 
 Planning stage. Implementation has not started, and no experimental results are available yet. The proposed scope below is subject to team review.
 
+## Project proposal
+
+Read the full English proposal draft: [PDF](docs/project-proposal.pdf) or [plain text](docs/project-proposal.txt). It includes the motivation, paper-by-paper related-work analysis, methodology and alternatives, expected results, evaluation controls, and references. The draft remains subject to team review and has not been submitted to the course platform.
+
 ## Project goal
 
 Build a coding agent with a text user interface (TUI) that lets a developer open a repository, describe a task, inspect tool activity, review changes, and restore a session after configuring a model API.
