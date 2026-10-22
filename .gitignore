@@ -1,0 +1,14 @@
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Local files
+.DS_Store
+*.log
